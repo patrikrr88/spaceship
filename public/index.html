@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Virtual Space</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+
+    <!-- Vesmír -->
+    <div id="space"></div>
+
+    <!-- Konzole -->
+    <div id="console" onclick="document.getElementById('cmdInput').focus()">
+        <div id="logContainer">
+            <div class="log-line">>> Virtual Space initialized</div>
+            <div class="log-line">>> Loading objects...</div>
+            <div class="log-line">>> Ready</div>
+        </div>
+        <div class="input-line">
+            <span>>> </span>
+            <input type="text" id="cmdInput" autofocus autocomplete="off" spellcheck="false">
+        </div>
+    </div>
+
+    <script src="./assets/js/app.js"></script>
+</body>
+
+</html>
